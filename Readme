@@ -1,0 +1,33 @@
+# Game Popularity API
+
+Here is a simple API project I've made using fastAPI. It showcases trending games from steam and their "hotness". This API is perfect for dashboards, Discord bots, and portfolio projects of sorts.
+---
+
+## Features
+
+- `/trending` — Returns the top trending games on Steam.
+- Each game includes:
+  - App ID (`appid`)
+  - Rank
+  - Name
+  - Current players
+  - Peak players
+  - Hotness score (current/peak %)
+
+- Clean, deployable FastAPI backend
+- Ready for frontend integration
+- Lightweight and beginner-friendly
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.10+
+- pip
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
