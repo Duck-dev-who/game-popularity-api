@@ -1,6 +1,5 @@
 from fastapi import FastAPI, Query
 import steam_api
-import utils
 
 app = FastAPI(title="Game Popularity API")
 
